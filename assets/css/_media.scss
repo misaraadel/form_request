@@ -49,4 +49,14 @@
     align-items: center;
     align-content: center;
   }
+
+  .sub-header .socail-media li a {
+    width: 30px;
+    height: 30px;
+
+    img {
+      width: 15px;
+      height: 15px;
+    }
+  }
 }
