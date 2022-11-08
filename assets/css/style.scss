@@ -526,6 +526,49 @@
     margin: 0px auto 10px;
   }
 
+  .socail-media {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 20px 0px;
+
+    li {
+      margin-inline-end: 10px;
+
+      &:last-child {
+        margin-inline-end: 0px;
+      }
+
+      a {
+        width: 40px;
+        height: 40px;
+        background-color: rgba($color: #fff, $alpha: 0.150);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        overflow: hidden;
+
+        img {
+          width: 22px;
+          height: 20px;
+          object-fit: contain;
+          margin: 0px;
+        }
+
+        &:hover {
+          background-color: var(--gray-color);
+
+          img {
+            animation: fadeInLeft .4s linear both;
+          }
+        }
+      }
+    }
+  }
+
   .heading {
     width: 100% !important;
     margin-bottom: 0px !important;
